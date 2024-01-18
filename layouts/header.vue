@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <ul class="links">
-            <a href="link" class="link">build your coffe</a>
+            <a href="build-coffe" class="link">build your coffe</a>
             <a href="link" class="link">buy a coffe</a>
             <a href="link" class="link">buy snacks</a>
         </ul>
