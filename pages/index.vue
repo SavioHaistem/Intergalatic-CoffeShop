@@ -35,7 +35,7 @@
     overflow: auto;
     width: 30rem;
     padding: 1rem;
-    color: rgb(245, 245, 245);
+    color: rgb(245, 245, 245)!important;
     font-size: 18px;
     line-height: 1.8rem;
   }
