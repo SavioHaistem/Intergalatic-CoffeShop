@@ -5,8 +5,11 @@
   * {
     color: white;
   }
-  main {
+  div.page {
     display: flex;
-    border: 1px solid white;
+  }
+
+  h1.title {
+    color: rgb(0, 150, 92);
   }
 </style>
