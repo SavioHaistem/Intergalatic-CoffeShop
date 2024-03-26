@@ -3,7 +3,14 @@
     <header>
       <h1 class="title">Buy your coffee</h1>
     </header>
-    <main></main>
+    <main>
+      <ul class="coffees-list">
+        {{ /*Lis automaticas*/ }}
+      </ul>
+      <div class="coffees-table">
+        {{ /* svg*/ }}
+      </div>
+    </main>
   </div>
 </template>
 
@@ -13,8 +20,7 @@
     display: flex;
     justify-content: center;
   }
-  h1.title {
-    border: 1px solid white;
+  main {
   }
 </style>
-// TODO: Make buy coffee section
+// TODO: Make buy coffee grid coffees section
