@@ -48,12 +48,13 @@
     padding: 10px;
     height: 80vh;
     border: 1px solid white;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 13rem));
     grid-gap: 1rem;
     display: grid;
     grid-auto-rows: 18rem;
     grid-auto-columns: 20rem;
     grid-auto-flow: row;
+    justify-content: center;
   }
   ul.coffees-list::-webkit-scrollbar-track-piece {
     background-color: rgba(0, 0, 0, 0);
