@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import { useCoffeeStore } from '#imports'
+
+  const fakeCoffees = useCoffeeStore()
+  fakeCoffees.getFirstsCoffees()
+</script>
 <template>
   <div class="page">
     <header>
@@ -6,7 +11,21 @@
     </header>
     <main>
       <ul class="coffees-list">
-        <li class="coffee-item"></li>
+        <li
+          class="coffee-item"
+          v-for="(item, index) in fakeCoffees.getCoffees"
+          :key="index"
+        >
+          <p class="coffee-name">{{ item.name }}</p>
+          <p
+            class="coffee-ingredient"
+            v-for="(ingredient, index) in item.ingredients"
+            :key="index"
+          >
+            {{ ingredient }}
+          </p>
+          <p class="coffee-quantity">{{ item.quantity }}</p>
+        </li>
       </ul>
       <div class="coffees-table"></div>
     </main>

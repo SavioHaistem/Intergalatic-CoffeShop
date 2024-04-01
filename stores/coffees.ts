@@ -13,6 +13,7 @@ export const useCoffeeStore = defineStore('coffees', {
   }),
   getters: {
     getListSize: (state) => state.coffeeListSize,
+    getCoffees: (state) => state.coffeeList
   },
   actions: {
     getFirstsCoffees() {
