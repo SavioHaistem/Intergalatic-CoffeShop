@@ -14,4 +14,5 @@ export default defineNuxtConfig({
       title: 'Intergalatic CoffeeShop',
     },
   },
+  modules: ['@pinia/nuxt']
 })

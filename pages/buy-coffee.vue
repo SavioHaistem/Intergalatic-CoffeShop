@@ -1,3 +1,4 @@
+<script setup lang="ts"></script>
 <template>
   <div class="page">
     <header>
@@ -6,23 +7,11 @@
     <main>
       <ul class="coffees-list">
         <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
-        <li class="coffee-item"></li>
       </ul>
       <div class="coffees-table"></div>
     </main>
   </div>
 </template>
-
-<script setup lang="ts"></script>
 <style scoped>
   div.page {
     height: 100vh;
