@@ -75,4 +75,4 @@
   }
 </style>
 
-// TODO: Make buy coffee grid coffees section
+// TODO: Style coffee item card
